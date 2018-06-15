@@ -1,6 +1,6 @@
 ﻿namespace Bezier
 {
-    partial class Form1
+    partial class Bezier
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -76,7 +76,7 @@
             this.label1.Text = "控制点的数量";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // Bezier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -85,8 +85,8 @@
             this.Controls.Add(this.trackBarValueLabel);
             this.Controls.Add(this.trackBar);
             this.Controls.Add(this.pictrueBox);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Bezier";
+            this.Text = "Bezier";
             ((System.ComponentModel.ISupportInitialize)(this.pictrueBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar)).EndInit();
             this.ResumeLayout(false);

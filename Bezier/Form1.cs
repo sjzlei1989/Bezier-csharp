@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Bezier
 {
-    public partial class Form1 : Form {
+    public partial class Bezier : Form {
         const int DOTWIDTH = 10;
         Graphics g;
         List<PointF> dots = new List<PointF>();
@@ -29,7 +29,7 @@ namespace Bezier
         /// 是否已经画过线了
         /// </summary>
         bool drawed = false;
-        public Form1() {
+        public Bezier() {
             InitializeComponent();
             controlPointsCount = trackBar.Value;
             Image img = new Bitmap(pictrueBox.Width, pictrueBox.Height);
