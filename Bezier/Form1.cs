@@ -66,12 +66,12 @@ namespace Bezier
                         segs.Add(new Segment(dots[i], dots[i + 1]));
                     }
                     float radio = 0.0f; //比例
-                    float step = 0.01f; //步进值
+                    float step = 0.001f; //步进值
                     while(radio <= 1.0f) {
-                        DrawDot(g, Brushes.Red, FindBezierPoint(dots.ToArray(), radio), DOTWIDTH);
+                        DrawDot(g, Brushes.Green, FindBezierPoint(dots.ToArray(), radio), 3);
                         pictrueBox.Refresh();
                         radio += step;
-                        System.Threading.Thread.Sleep(50);
+                        System.Threading.Thread.Sleep(5);
                     }
                     drawed = true;
                 }
