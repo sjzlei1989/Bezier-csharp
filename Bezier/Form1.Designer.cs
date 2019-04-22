@@ -85,6 +85,9 @@
             this.Controls.Add(this.trackBarValueLabel);
             this.Controls.Add(this.trackBar);
             this.Controls.Add(this.pictrueBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Bezier";
             this.Text = "Bezier";
             ((System.ComponentModel.ISupportInitialize)(this.pictrueBox)).EndInit();
